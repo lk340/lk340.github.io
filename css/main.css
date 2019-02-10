@@ -1,5 +1,88 @@
+:root {
+  --blue: rgb(128, 128, 223);
+  --darkerBlue: rgb(94, 94, 221);
+}
+
 .mt-5 img {
   height: 64px;
   width: auto;
   margin-bottom: 5px;
+}
+
+.button-primary {
+  color: white;
+  background-color: var(--blue);
+  border-collapse: var(--blue);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition-duration: 0.3s;
+}
+
+.button-primary:hover {
+  color: white;
+  background-color: var(--darkerBlue);
+  border-collapse: var(--darkerBlue);
+  text-decoration: none;
+}
+
+.button-round {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+hr.divider2 {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+
+hr.divider3 {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: var(--blue);
+}
+
+.background-primary {
+  background-color: var(--blue) !important;
+}
+
+#portfolio2 .portfolio2-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#portfolio2 .portfolio2-row a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.705);
+  transition-duration: 0.2s;
+  height: 200px;
+  background-color: var(--blue);
+  border: var(--darkerBlue) solid 1px;
+  /* background-image: url(../img/mountain_background.jpeg);
+  background-position: center; */
+}
+
+#portfolio2 .portfolio2-row a:hover {
+  color: var(--darkerBlue);
+}
+
+@media (max-width: 991px) {
+  #portfolio2 .portfolio2-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio2 .portfolio2-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
