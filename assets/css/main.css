@@ -3996,7 +3996,7 @@ input, select, textarea {
 @media (max-width: 533px) {
 	#technologies {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		justify-content: center;
 		margin-bottom: 45px;
 		cursor: default;
@@ -4033,5 +4033,10 @@ input, select, textarea {
 		justify-content: center;
 		margin-bottom: 45px;
 		cursor: default;
+	}
+
+	.contacts-img:hover {
+		transform: translateX(15px);
+		opacity: 0.5;
 	}
 }
