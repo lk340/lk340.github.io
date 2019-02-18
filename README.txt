@@ -1,1 +1,1 @@
-# Loyd Kim's Portfolio Site
+Portfolio Site
