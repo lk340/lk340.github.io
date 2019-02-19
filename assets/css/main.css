@@ -3909,7 +3909,7 @@ input, select, textarea {
 }
 
 .contacts-img:hover {
-	transform: translateY(15px);
+	transform: scale(1.5) rotate(360deg);
 	opacity: 0.5;
 }
 
@@ -4036,7 +4036,7 @@ input, select, textarea {
 	}
 
 	.contacts-img:hover {
-		transform: translateX(15px);
+		transform: scale(1.5) rotate(360deg);
 		opacity: 0.5;
 	}
 }
