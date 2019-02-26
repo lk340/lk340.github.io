@@ -3938,6 +3938,13 @@ input, select, textarea {
 	background-size: contain;
 }
 
+.pokeblox2-image {
+	background-image: url(../../images/projects/pokeblox2.png) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
 #technologies {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
