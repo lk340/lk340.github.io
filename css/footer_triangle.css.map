@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,iBAAiB,EAAE,mCAAmC;EACtD,SAAS,EAAE,mCAAmC;EAC9C,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,gBAAgB;EAClC,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "footer_triangle.scss"
+    ],
+    "names": [],
+    "file": "footer_triangle.css"
+}

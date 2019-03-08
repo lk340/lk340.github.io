@@ -1,0 +1,80 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: var(--charcoal2);
+  width: 100%;
+  transition-duration: 0.3s;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  position: absolute;
+}
+
+.fix-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+  
+.logo {
+  margin-left: 3%;
+}
+
+
+.navbar {
+  display: flex;
+  margin-right: 3%;
+}
+
+
+.navbar > a {
+  display: flex; 
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 15px 0;
+  margin: 6px 4px;
+  width: 90px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.navbar > a:hover {
+  background-color: var(--glassWhite);
+  overflow: hidden;
+}
+
+
+.navbar > a:hover span {
+  text-shadow: 0 0 5px white;
+  animation: animateNavbar 0.7s linear;
+}
+
+@keyframes animateNavbar {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+    
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
