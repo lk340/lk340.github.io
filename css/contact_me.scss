@@ -30,7 +30,7 @@
 }
 
 .contact-holder1 {
-  animation: animateContactHolder1 1s ease-in-out infinite;
+  animation: animateContactHolder1 0.7s ease-in-out infinite;
 }
 
 @keyframes animateContactHolder1 {
@@ -40,7 +40,7 @@
 
 .contact-holder2 {
   margin-top: 5px;
-  animation: animateContactHolder2 1s ease-in-out infinite;
+  animation: animateContactHolder2 0.7s ease-in-out infinite;
 }
 
 @keyframes animateContactHolder2 {
@@ -88,7 +88,7 @@
   border: white solid 1px;
   margin: 0 14px;
   
-  animation: animateContactPulse 0.7s ease-out infinite;
+  animation: animateContactPulse 0.7s ease-in-out infinite;
 }
 
 @keyframes animateContactPulse {
