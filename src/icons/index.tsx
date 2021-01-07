@@ -1,0 +1,11 @@
+export { ArrowRight } from "./_arrow-right";
+export { ArrowDown } from "./_arrow-down";
+export { LogoText } from "./_logo-text";
+export { GitHub } from "./_github";
+export { LinkedIn } from "./_linked-in";
+export { AngelList } from "./_angel-list";
+export { About } from "./_about";
+export { Skills } from "./_skills";
+export { Projects } from "./_projects";
+export { Contact } from "./_contact";
+export { Menu } from "./_menu";

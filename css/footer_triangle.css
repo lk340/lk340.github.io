@@ -1,8 +1,0 @@
-.footer-triangle {
-  -webkit-clip-path: polygon(50% 28%, 0 100%, 100% 100%);
-  clip-path: polygon(50% 28%, 0 100%, 100% 100%);
-  width: 100%;
-  background-color: var(--charcoal2);
-  height: 80px;
-}
-/*# sourceMappingURL=footer_triangle.css.map */

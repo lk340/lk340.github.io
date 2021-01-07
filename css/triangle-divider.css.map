@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,CAAC;EACV,mBAAmB,EAAE,IAAI;CAC1B;;AAED,AAAA,iBAAiB,CAAC;EAChB,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,iBAAiB,EAAE,6BAA6B;EAChD,SAAS,EAAE,6BAA6B;CACzC",
-    "sources": [
-        "triangle-divider.scss"
-    ],
-    "names": [],
-    "file": "triangle-divider.css"
-}
